@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>    
+        <link rel="stylesheet" href="contactmestyle.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head><body>
+        <header class="header">
+            <a href="index.html" class="logo">Logo</a>            
+            <ul class="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contactme.html">Contact me</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="galleryadmin.html">Gallery Admin</a></li>
+
+            </ul>
+          </header>
+
+          <div class="container">
+            <h1>Contact Me</h1>
+        
+            <form name="form" method="get" action="index.html" onsubmit=" return validate()">
+              <input type="text" id="name" name="name" placeholder="Your Name" />
+              <p id='nameError' style="opacity: 0;color:red;">Name Required</p>
+              <input type="email" id="email" name="email" placeholder="Email Address" />
+              <p id='emailError' style="opacity: 0;color:red;">Email Required</p>
+
+              <textarea name="message" id="message" placeholder="Type your Message"></textarea>
+              <p id='messageError' style="opacity: 0;color:red;">Message Required</p>
+
+              <button type="submit" class='btn' value="send"> send</button> 
+
+
+            </form>
+            </div>
+            <script  src="formscript.js"></script>
+
+    </body>
+</html>

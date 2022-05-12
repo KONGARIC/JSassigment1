@@ -1,0 +1,19 @@
+.banner-section {
+    background-color:#eee;
+    width: 80%;
+    margin: 2% auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
+  .banner-section img{
+      width: 100%;
+	  cursor: pointer;
+  }
+  .banner-section img:hover{
+   
+      box-shadow: 2px 2px 4px 1px rgba(231, 228, 228, 0.25);
+	  transform: scale(0.90) ;
+
+  }
+  
